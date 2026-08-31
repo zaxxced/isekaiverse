@@ -44,14 +44,14 @@ export default function DashboardPage() {
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
-                href="/directory"
+                href="/groups"
                 className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-transform duration-200 hover:-translate-y-0.5"
               >
                 Link Grup
                 <ArrowUpRight className="size-4" />
               </Link>
               <Link
-                href="/groups"
+                href="/gallery"
                 className="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-accent"
               >
                 Lihat Dokumentasi
