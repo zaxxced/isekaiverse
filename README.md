@@ -1,2 +1,0 @@
-# isekaiverse
-Isekai Verse Web
