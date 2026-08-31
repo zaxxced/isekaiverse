@@ -80,7 +80,7 @@ export const groups: Group[] = [
     name: 'Isekai Verse Origin',
     description: 'Tempat dimana semuanya bermula.',
     image: '/groups/group-1.png',
-    href: 'https://chat.whatsapp.com/Hu19OjP0o9K3GCOTfCwGb3?s=cl&p=a&ilr=4'
+    href: 'https://chat.whatsapp.com/Hu19OjP0o9K3GCOTfCwGb3?s=cl&p=a&ilr=4',
     accent: 'blue',
   },
   {
