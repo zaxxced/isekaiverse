@@ -374,10 +374,10 @@ export const gallery: GalleryItem[] = [
   },
   // 2026
   {
-    id: 'festival-2026',
-    title: 'Festival Kolaborasi',
-    description: 'Belasan komunitas mitra dalam satu panggung kebersamaan.',
-    image: '/gallery/event-2.png',
+    id: 'meet',
+    title: 'Meet Up',
+    description: 'Pertemuan langsung yang dilakukan member serta admin.',
+    image: '/gallery/meet.jpg',
     date: 'Agu 2026',
     year: '2026',
     tall: true,
