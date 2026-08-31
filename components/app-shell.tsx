@@ -20,8 +20,8 @@ const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/directory', label: 'Profil Grup', icon: Users },
   { href: '/groups', label: 'Grup', icon: Link2 },
-  { href: '/roster', label: 'Daftar Anggota', icon: ListChecks },
-  { href: '/memories', label: 'Kenangan', icon: Clock },
+  { href: '/roster', label: 'Nama yang diingat', icon: ListChecks },
+  { href: '/memories', label: 'Peristiwa', icon: Clock },
   { href: '/gallery', label: 'Dokumentasi', icon: Images },
 ]
 
