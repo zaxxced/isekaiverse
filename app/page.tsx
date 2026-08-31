@@ -12,14 +12,14 @@ import { accentBg, type Accent } from '@/lib/accents'
 
 const stats: { label: string; value: string; hint: string; accent: Accent; icon: typeof Users }[] = [
   { label: 'Anggota Aktif', value: '1400', hint: '+38 bulan ini', accent: 'blue', icon: Users },
-  { label: 'Arsip Kejadian dan Peristiwa', value: '0', hint: '3 tahun perjalanan', accent: 'sage', icon: Clock },
+  { label: 'Arsip Kejadian & Peristiwa', value: '0', hint: '3 tahun perjalanan', accent: 'sage', icon: Clock },
   { label: 'Dokumentasi', value: '0', hint: 'foto & momen', accent: 'peach', icon: Images },
   { label: 'Hari lagi', value: `${finalDays}`, hint: 'hitung mundur ulang tahun ke 4', accent: 'lilac', icon: CalendarClock },
 ]
 
 const quickLinks = [
-  { href: '/directory', title: 'Profil Grup', desc: 'Kenali orang-orang di balik komunitas.', accent: 'blue' as Accent },
-  { href: '/memories', title: 'Kenangan', desc: 'Telusuri perjalanan dari tahun ke tahun.', accent: 'sage' as Accent },
+  { href: '/directory', title: 'Profil Para Admin', desc: 'Kenali orang-orang di balik komunitas.', accent: 'blue' as Accent },
+  { href: '/memories', title: 'Kejadian', desc: 'Telusuri perjalanan dari tahun ke tahun.', accent: 'sage' as Accent },
   { href: '/gallery', title: 'Dokumentasi', desc: 'Lihat galeri momen-momen berharga.', accent: 'peach' as Accent },
 ]
 
@@ -37,22 +37,21 @@ export default function DashboardPage() {
               Selamat datang kembali
             </span>
             <h1 className="mt-5 text-balance font-serif text-4xl leading-[1.08] tracking-tight text-foreground sm:text-5xl">
-              Ruang hangat untuk merawat kebersamaan.
+              Komunitas untuk minatmu.
             </h1>
             <p className="mt-4 text-pretty text-base leading-relaxed text-muted-foreground">
-              Satu tempat untuk mengenal anggota, mengenang perjalanan, dan
-              mendokumentasikan setiap momen berharga komunitas Lentera.
+              Satu tempat untuk saling mengenal, bertemu, bersahabat, dengan minat apapun.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link
                 href="/directory"
                 className="inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-transform duration-200 hover:-translate-y-0.5"
               >
-                Jelajahi Anggota
+                Link Grup
                 <ArrowUpRight className="size-4" />
               </Link>
               <Link
-                href="/gallery"
+                href="/groups"
                 className="inline-flex items-center gap-2 rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-accent"
               >
                 Lihat Dokumentasi
