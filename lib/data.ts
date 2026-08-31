@@ -77,10 +77,10 @@ export type Group = {
 export const groups: Group[] = [
   {
     id: 'grup-1',
-    name: 'Grup Inti',
-    description: 'Ruang utama untuk koordinasi dan pengumuman komunitas.',
+    name: 'Isekai Verse Origin',
+    description: 'Tempat dimana semuanya bermula.',
     image: '/groups/group-1.png',
-    href: 'https://example.com',
+    href: 'https://chat.whatsapp.com/Hu19OjP0o9K3GCOTfCwGb3?s=cl&p=a&ilr=4,
     accent: 'blue',
   },
   {
