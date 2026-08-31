@@ -5,10 +5,10 @@ import { members, memories, gallery } from '@/lib/data'
 import { accentBg, type Accent } from '@/lib/accents'
 
 const stats: { label: string; value: string; hint: string; accent: Accent; icon: typeof Users }[] = [
-  { label: 'Anggota Aktif', value: '512', hint: '+38 bulan ini', accent: 'blue', icon: Users },
+  { label: 'Anggota Aktif', value: '1400', hint: '+38 bulan ini', accent: 'blue', icon: Users },
   { label: 'Kenangan Terarsip', value: '84', hint: '3 tahun perjalanan', accent: 'sage', icon: Clock },
-  { label: 'Dokumentasi', value: '1.2K', hint: 'foto & momen', accent: 'peach', icon: Images },
-  { label: 'Kolaborasi', value: '27', hint: 'komunitas mitra', accent: 'lilac', icon: Heart },
+  { label: 'Dokumentasi', value: '0', hint: 'foto & momen', accent: 'peach', icon: Images },
+  { label: 'Kolaborasi', value: '0', hint: 'komunitas mitra', accent: 'lilac', icon: Heart },
 ]
 
 const quickLinks = [
