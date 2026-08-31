@@ -9,9 +9,9 @@ export default function DirectoryPage() {
   return (
     <div className="space-y-10">
       <PageHeader
-        eyebrow="Profil Grup"
+        eyebrow="Profil Para Admin"
         title="Orang-orang di balik komunitas."
-        description="Kenali para anggota dan pengurus yang menjaga Lentera tetap hidup, hangat, dan bergerak maju bersama."
+        description="Kenali para Admin dan para mantan Admin yang berpengaruh pada komunitas ini."
       />
 
       <div className="grid gap-4 sm:grid-cols-2">
