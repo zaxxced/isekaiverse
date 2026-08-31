@@ -18,7 +18,7 @@ import { cn } from '@/lib/utils'
 
 const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/directory', label: 'Profil Grup', icon: Users },
+  { href: '/directory', label: 'Profil Admin', icon: Users },
   { href: '/groups', label: 'Grup', icon: Link2 },
   { href: '/roster', label: 'Nama yang diingat', icon: ListChecks },
   { href: '/memories', label: 'Peristiwa', icon: Clock },
