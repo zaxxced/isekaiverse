@@ -5,9 +5,9 @@ export default function MemoriesPage() {
   return (
     <div className="space-y-10">
       <PageHeader
-        eyebrow="Kenangan"
+        eyebrow="Peristiwa"
         title="Perjalanan yang layak dikenang."
-        description="Setiap tahun menyimpan cerita, langkah, dan orang-orang yang membuat komunitas ini bertumbuh. Telusuri kembali momen-momennya."
+        description="Setiap tahun menyimpan cerita, langkah, dan orang-orang yang membuat komunitas ini bertumbuh."
       />
 
       <div className="relative">
