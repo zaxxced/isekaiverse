@@ -66,12 +66,23 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
   )
 }
 
+import Image from 'next/image' // Pastikan import ini sudah ada di atas
+
 function Brand() {
   return (
     <Link href="/" className="flex items-center gap-3">
-      <span className="flex size-9 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-        <Sparkles className="size-[18px]" strokeWidth={2} />
-      </span>
+      {/* Ganti rounded-xl menjadi rounded-full */}
+      <img 
+        src="/logo.png" 
+        alt="Isekai Verse Logo" 
+        className="size-9 rounded-full object-cover border border-border" 
+      />
+
+      {/* ATAU jika menggunakan komponen Image (Opsi B) */}
+      {/* <div className="relative size-9 overflow-hidden rounded-full border border-border">
+        <Image src="/logo.png" alt="Logo" fill className="object-cover" />
+      </div> */}
+
       <span className="flex flex-col leading-tight">
         <span className="font-serif text-xl tracking-tight text-foreground">
           Isekai Verse
