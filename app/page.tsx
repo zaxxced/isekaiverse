@@ -75,7 +75,7 @@ export default function DashboardPage() {
               </span>
             ))}
             <span className="flex size-12 items-center justify-center rounded-full bg-secondary text-xs font-semibold text-muted-foreground ring-2 ring-card">
-              +500
+              +1000
             </span>
           </div>
         </div>
