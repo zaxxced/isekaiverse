@@ -9,6 +9,7 @@ import {
   Clock,
   Images,
   Link2,
+  ListChecks,
   Sparkles,
   Menu,
   X,
@@ -19,6 +20,7 @@ const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/directory', label: 'Profil Grup', icon: Users },
   { href: '/groups', label: 'Grup', icon: Link2 },
+  { href: '/roster', label: 'Daftar Anggota', icon: ListChecks },
   { href: '/memories', label: 'Kenangan', icon: Clock },
   { href: '/gallery', label: 'Dokumentasi', icon: Images },
 ]
