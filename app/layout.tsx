@@ -16,9 +16,9 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Lentera — Ruang Komunitas',
+  title: 'Isekai Verse',
   description:
-    'Ruang komunitas modern untuk mengenal anggota, merawat kenangan, dan mendokumentasikan setiap momen berharga.',
+    'Website yang berisi dokumentasi dan informasi dari grup Isekai Verse',
   generator: 'v0.app',
 }
 
