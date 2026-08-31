@@ -133,6 +133,45 @@ export const groups: Group[] = [
   },
 ]
 
+export type RosterYear = {
+  year: string
+  names: string[]
+}
+
+export const roster: RosterYear[] = [
+  {
+    year: '2023',
+    names: ['Aruna Pramesti', 'Bima Santoso', 'Citra Wardani', 'Dimas Nugroho'],
+  },
+  {
+    year: '2024',
+    names: [
+      'Elina Rahmawati',
+      'Farid Hidayat',
+      'Gilang Saputra',
+      'Hana Lestari',
+      'Irfan Maulana',
+    ],
+  },
+  {
+    year: '2025',
+    names: [
+      'Jihan Aprilia',
+      'Kevin Wijaya',
+      'Laras Anggraini',
+      'Mahesa Putra',
+    ],
+  },
+  {
+    year: '2026',
+    names: ['Nadia Safira', 'Oki Ramadhan', 'Putri Handayani'],
+  },
+  {
+    year: '2027',
+    names: ['Rangga Pratama', 'Sinta Melati', 'Taufik Hidayat', 'Umar Fadli'],
+  },
+]
+
 export type MemoryYear = {
   year: string
   summary: string
