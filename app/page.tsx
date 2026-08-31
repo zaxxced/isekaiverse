@@ -6,7 +6,7 @@ const targetDate = new Date(new Date().getFullYear() + 1, 0, 6); // 6 Januari ta
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowUpRight, Users, Clock, Images, Heart, calendar-clock } from 'lucide-react'
+import { ArrowUpRight, Users, Clock, Images, Heart, CalendarClock } from 'lucide-react'
 import { members, memories, gallery } from '@/lib/data'
 import { accentBg, type Accent } from '@/lib/accents'
 
@@ -14,7 +14,7 @@ const stats: { label: string; value: string; hint: string; accent: Accent; icon:
   { label: 'Anggota Aktif', value: '1400', hint: '+38 bulan ini', accent: 'blue', icon: Users },
   { label: 'Arsip Kejadian dan Peristiwa', value: '0', hint: '3 tahun perjalanan', accent: 'sage', icon: Clock },
   { label: 'Dokumentasi', value: '0', hint: 'foto & momen', accent: 'peach', icon: Images },
-  { label: 'Ulang tahun ke 4', value: `${finalDays}`, hint: 'hari lagi', accent: 'lilac', icon: calendar-clock },
+  { label: 'Ulang tahun ke 4', value: `${finalDays}`, hint: 'hari lagi', accent: 'lilac', icon: CalendarClock },
 ]
 
 const quickLinks = [
