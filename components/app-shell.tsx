@@ -74,10 +74,10 @@ function Brand() {
       </span>
       <span className="flex flex-col leading-tight">
         <span className="font-serif text-xl tracking-tight text-foreground">
-          Lentera
+          Isekai Verse
         </span>
         <span className="text-[11px] font-medium uppercase tracking-widest text-muted-foreground">
-          Ruang Komunitas
+          Ruang komunitas
         </span>
       </span>
     </Link>
