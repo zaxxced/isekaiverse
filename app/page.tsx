@@ -14,7 +14,7 @@ const stats: { label: string; value: string; hint: string; accent: Accent; icon:
   { label: 'Anggota Aktif', value: '1400', hint: '+38 bulan ini', accent: 'blue', icon: Users },
   { label: 'Arsip Kejadian dan Peristiwa', value: '0', hint: '3 tahun perjalanan', accent: 'sage', icon: Clock },
   { label: 'Dokumentasi', value: '0', hint: 'foto & momen', accent: 'peach', icon: Images },
-  { label: 'Ulang tahun ke 4', value: `${finalDays}`, hint: 'hari lagi', accent: 'lilac', icon: CalendarClock },
+  { label: 'Hari lagi', value: `${finalDays}`, hint: 'hitung mundur ulang tahun ke 4', accent: 'lilac', icon: CalendarClock },
 ]
 
 const quickLinks = [
