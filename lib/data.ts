@@ -50,7 +50,7 @@ export const members: Member[] = [
     name: 'Reja',
     role: 'Owner Voice Chat',
     bio: 'Menyambut anggota baru dengan ramah.',
-    avatar: '/avatars/member-.png',
+    avatar: '/avatars/member-5.png',
     href: '#reja',
     accent: 'blue',
   },
@@ -62,6 +62,15 @@ export const members: Member[] = [
     avatar: '/avatars/member-4.png',
     href: '#suzuya',
     accent: 'sage',
+  },
+  {
+    id: 'ryze',
+    name: 'Ryze',
+    role: 'Donatur',
+    bio: 'Donatur terbesar sepanjang sejarah Isekai Verse.',
+    avatar: '/avatars/member-7.png',
+    href: '#ryze',
+    accent: 'slate',
   },
 ]
 
