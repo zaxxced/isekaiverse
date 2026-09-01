@@ -5,7 +5,7 @@ export type Member = {
   bio: string
   avatar: string
   href: string
-  accent: 'blue' | 'sage' | 'peach' | 'lilac'
+  accent: 'blue' | 'sage' | 'peach' | 'lilac' | 'slate' |
 }
 
 export const members: Member[] = [
