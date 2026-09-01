@@ -5,7 +5,7 @@ export type Member = {
   bio: string
   avatar: string
   href: string
-  accent: 'blue' | 'sage' | 'peach' | 'lilac' | 'slate' 
+  accent: 'blue' | 'sage' | 'peach' | 'lilac' | 'slate' | 'rose' | 'blush'
 }
 
 export const members: Member[] = [
@@ -43,7 +43,7 @@ export const members: Member[] = [
     bio: 'Partner Bisnis serta Co-owner dari Gameverse.',
     avatar: '/avatars/member-.png',
     href: '#fahmi',
-    accent: 'lilac',
+    accent: 'rose',
   },
   {
     id: 'reja',
@@ -52,7 +52,7 @@ export const members: Member[] = [
     bio: 'Menyambut anggota baru dengan ramah.',
     avatar: '/avatars/member-5.png',
     href: '#reja',
-    accent: 'blue',
+    accent: 'blush',
   },
   {
     id: 'suzuya',
@@ -61,7 +61,7 @@ export const members: Member[] = [
     bio: 'Membagikan kehangatan serta menjadi ketua femboy.',
     avatar: '/avatars/member-4.png',
     href: '#suzuya',
-    accent: 'sage',
+    accent: 'rose',
   },
   {
     id: 'ryze',
