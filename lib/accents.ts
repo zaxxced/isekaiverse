@@ -9,6 +9,7 @@ export type Accent =
   | 'pink' 
   | 'navy' 
   | 'brown'
+  | 'orange'
 
 export const accentBg: Record<Accent, string> = {
   blue: 'bg-pastel-blue text-pastel-blue-foreground',
@@ -21,6 +22,7 @@ export const accentBg: Record<Accent, string> = {
   pink: 'bg-pastel-pink text-pastel-pink-foreground',
   navy: 'bg-pastel-navy text-pastel-navy-foreground',
   brown: 'bg-pastel-brown text-pastel-brown-foreground',
+  orange: 'bg-pastel-orange text-pastel-orange-foreground',
 }
 
 export const accentRing: Record<Accent, string> = {
@@ -34,4 +36,5 @@ export const accentRing: Record<Accent, string> = {
   pink: 'ring-pastel-pink',
   navy: 'ring-pastel-navy',
   brown: 'ring-pastel-brown',
+  orange: 'ring-pastel-orange',
 }
