@@ -5,7 +5,7 @@ export type Member = {
   bio: string
   avatar: string
   href: string
-  accent: 'blue' | 'sage' | 'peach' | 'lilac' | 'slate' | 'rose' | 'blush'
+  accent: 'blue' | 'sage' | 'peach' | 'lilac' | 'slate' | 'rose' | 'blush' | 'orange' | 'navy' | 'pink' | 'brown'
 }
 
 export const members: Member[] = [
@@ -52,14 +52,14 @@ export const members: Member[] = [
     bio: 'Menyambut anggota baru dengan ramah.',
     avatar: '/avatars/member-5.png',
     href: '#reja',
-    accent: 'blush',
+    accent: 'pink',
   },
   {
     id: 'suzuya',
     name: 'Suzuya',
     role: 'Owner Gameverse',
     bio: 'Membagikan kehangatan serta menjadi ketua femboy.',
-    avatar: '/avatars/member-4.png',
+    avatar: '/avatars/member-6.png',
     href: '#suzuya',
     accent: 'rose',
   },
@@ -71,6 +71,33 @@ export const members: Member[] = [
     avatar: '/avatars/member-7.png',
     href: '#ryze',
     accent: 'slate',
+  },
+  {
+    id: 'maran',
+    name: 'Maran',
+    role: 'Admin',
+    bio: 'Membantu meramaikan di saat krisis member.',
+    avatar: '/avatars/member-8.png',
+    href: '#maran',
+    accent: 'orange',
+  },
+  {
+    id: 'kila',
+    name: 'Kila',
+    role: 'Owner The Garden',
+    bio: 'Membukakan pintu untuk para member yang masih malu-malu.',
+    avatar: '/avatars/member-9.png',
+    href: '#kila',
+    accent: 'sage',
+  },
+  {
+    id: 'roy',
+    name: 'Roy',
+    role: 'Co-owner Voice Chat',
+    bio: 'Wakil owner dari Voice chat sekaligus editor.',
+    avatar: '/avatars/member-10.png',
+    href: '#roy',
+    accent: 'blush',
   },
 ]
 
