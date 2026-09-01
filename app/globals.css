@@ -46,6 +46,10 @@
   --color-pastel-peach-foreground: var(--pastel-peach-foreground);
   --color-pastel-lilac: var(--pastel-lilac);
   --color-pastel-lilac-foreground: var(--pastel-lilac-foreground);
+  /* Tambahan variabel warna slate pastel */
+  --color-pastel-slate: var(--pastel-slate);
+  --color-pastel-slate-foreground: var(--pastel-slate-foreground);
+  
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -91,6 +95,9 @@
   --pastel-peach-foreground: oklch(0.5 0.09 55);
   --pastel-lilac: oklch(0.94 0.03 310);
   --pastel-lilac-foreground: oklch(0.47 0.08 315);
+  /* Tambahan tone pastel abu / slate yang senada */
+  --pastel-slate: oklch(0.94 0.008 260);
+  --pastel-slate-foreground: oklch(0.42 0.02 260);
 
   --sidebar: oklch(0.99 0.002 260);
   --sidebar-foreground: oklch(0.24 0.01 260);
