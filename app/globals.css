@@ -48,7 +48,6 @@
   --color-pastel-lilac-foreground: var(--pastel-lilac-foreground);
   --color-pastel-slate: var(--pastel-slate);
   --color-pastel-slate-foreground: var(--pastel-slate-foreground);
-  /* Tambahan warna baru di theme inline */
   --color-pastel-rose: var(--pastel-rose);
   --color-pastel-rose-foreground: var(--pastel-rose-foreground);
   --color-pastel-blush: var(--pastel-blush);
@@ -59,6 +58,9 @@
   --color-pastel-navy-foreground: var(--pastel-navy-foreground);
   --color-pastel-brown: var(--pastel-brown);
   --color-pastel-brown-foreground: var(--pastel-brown-foreground);
+  /* Tambahan warna orange di theme inline */
+  --color-pastel-orange: var(--pastel-orange);
+  --color-pastel-orange-foreground: var(--pastel-orange-foreground);
   
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
@@ -107,22 +109,20 @@
   --pastel-lilac-foreground: oklch(0.47 0.08 315);
   --pastel-slate: oklch(0.94 0.008 260);
   --pastel-slate-foreground: oklch(0.42 0.02 260);
-
-  /* Tambahan warna pastel baru */
   --pastel-rose: oklch(0.94 0.04 15);
   --pastel-rose-foreground: oklch(0.48 0.12 15);
-
   --pastel-blush: oklch(0.95 0.03 345);
   --pastel-blush-foreground: oklch(0.50 0.09 345);
-
   --pastel-pink: oklch(0.93 0.05 330);
   --pastel-pink-foreground: oklch(0.45 0.13 330);
-
   --pastel-navy: oklch(0.92 0.03 250);
   --pastel-navy-foreground: oklch(0.40 0.08 250);
-
   --pastel-brown: oklch(0.93 0.035 65);
   --pastel-brown-foreground: oklch(0.46 0.09 65);
+
+  /* Tambahan warna pastel orange yang senada */
+  --pastel-orange: oklch(0.95 0.045 50);
+  --pastel-orange-foreground: oklch(0.48 0.11 50);
 
   --sidebar: oklch(0.99 0.002 260);
   --sidebar-foreground: oklch(0.24 0.01 260);
@@ -237,4 +237,4 @@
     opacity: 1;
     transform: none;
   }
-    }
+}
